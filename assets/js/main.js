@@ -105,7 +105,7 @@ const sr = ScrollReveal({
 });
 
 sr.debug = true;
-sr.reveal(`.home__data`);
+sr.reveal(`.home__data, .join__container, .footer`);
 sr.reveal(`.home__img`, {origin: 'bottom'});
 sr.reveal(`.enjoy__card, .popular__card`, {interval: 100});
 sr.reveal(`.about__data`, {origin: 'right'});
